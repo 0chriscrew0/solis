@@ -2,7 +2,7 @@
 
 import { useOrganization } from "@clerk/nextjs";
 import { AuthLayout } from "@/modules/auth/ui/layouts/auth-layout";
-import { OrgSelectView } from "@/modules/auth/ui/views/org-select-view";
+import { OrgSelectView } from "@/app/modules/auth/ui/views/org-selection-view";
 
 export const OrganizationGuard = ({
   children,
